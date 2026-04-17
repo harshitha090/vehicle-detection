@@ -7,11 +7,11 @@ cap = cv2.VideoCapture(0)
 
 vehicle_classes = ["car","motorcycle","bus","truck"]
 
-while True:
+ True:
 
     ret, frame = cap.read()
 
-    results = model(frame)
+    results = model(frame);;;;;;
 
     car_count = 0
     bike_count = 0
